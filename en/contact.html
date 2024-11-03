@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alostoura</title>
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mada:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- nav -->
+
+    <nav class="flex flex-a-center flex-j-between">
+        <a href="index.html" class="logo">
+            <img src="imgs/logo.png" alt="">
+        </a>
+
+        <button class="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-son flex flex-a-center flex-j-between">
+            <button class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="links flex gap-20">
+                <li>
+                    <a href="index.html" class="tap-btn"> <i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="tap-btn"><i class="fa-solid fa-person-circle-question"></i> About Us</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="tap-btn"><i class="fa-solid fa-briefcase"></i> Our Portfolio</a>
+                </li>
+            </ul>
+            <div class="btns">
+                <a href="../index.html" class="lang-btn">
+                    <span>ar</span>
+                </a>
+                <a href="contact.html" class="tap-btn request-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- contact -->
+    <section class="contact-us" style="background-color: #f5f5f5;">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-son flex">
+            <div class="contact-text">
+                <p>
+                    We are here to answer any inquiries you may have. If you'd like to know more about our services or
+                    have specific questions, please feel free to contact us. Our dedicated team will get back to you as
+                    soon as possible.
+                </p>
+                <h3>Email:</h3>
+                <p>info@yourcompany.com</p>
+                <h3>Phone:</h3>
+                <a href="tel:+201234567890" class="tel">01234567890</a>
+                <h3>Follow Us:</h3>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="form-con animate-on-scroll">
+                <form action="">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Phone" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea name="" id="" placeholder="Write your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        powered by <a href="https://mrslia.com/">mrslia</a>
+    </footer>
+
+    <!-- java script -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
